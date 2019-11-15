@@ -1,7 +1,9 @@
 # testnginheritancepoc
+
 This repository contains a small PoC using TestNG 6.4.13 &amp; 7.0.0 to show a groups inheritance issue
 
 ## Build
+
  To build this project run
  
  ```bash
@@ -9,9 +11,11 @@ This repository contains a small PoC using TestNG 6.4.13 &amp; 7.0.0 to show a g
  ```
 
 ## Running
+
 To run the tests use provided shell script (only Linux):
 
-- TestNG 6.14.3 with explicit test class 
+### TestNG 6.14.3 with explicit test class 
+
 ```bash
 ./execute_test-single-6.14.3.sh
 ```
@@ -32,7 +36,8 @@ Total tests run: 1, Failures: 0, Skips: 0
 ===============================================
 ```
 
-- TestNG 6.14.3 using groups 
+### TestNG 6.14.3 using groups
+ 
 ```bash
 ./execute_test-groups-6.14.3.sh
 ``` 
@@ -46,7 +51,9 @@ Custom suite
 Total tests run: 0, Failures: 0, Skips: 0
 ===============================================
 ```
-- TestNG 7.0.0 with explicit test class 
+
+### TestNG 7.0.0 with explicit test class
+ 
 ```bash
 ./execute_test-single-7.0.0.sh
 ```
@@ -66,7 +73,9 @@ Default Suite
 Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
 ===============================================
 ```
-- TestNG 7.0.0 using groups  
+
+### TestNG 7.0.0 using groups
+  
 ```bash
 ./execute_test-groups-7.0.0.sh
 ``` 
