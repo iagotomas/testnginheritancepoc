@@ -1,0 +1,1 @@
+java -cp "./build/classes/java/main:./lib/7.0.0/*" org.testng.TestNG testng-single.xml

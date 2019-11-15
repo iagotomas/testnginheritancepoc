@@ -1,0 +1,23 @@
+Potential fixes modifying behavior
+===================================
+
+
+Fixed: GITHUB-2152: Multiple Test Groups Causing @BeforeMethod and @AfterMethod to be called multiple times for a single test (Krishnan Mahadevan)
+Fixed: GITHUB-1709: @Ignore doesn't work when used on child class, and parent has multiple @Test methods (Krishnan Mahadevan)
+Fixed: GITHUB-1691: Support reading data provider information from Class level @Test annotation (Krishnan Mahadevan)
+Fixed: GITHUB-326: When group-by-instances is set to true the instances created by @Factory does not run in parallel (Krishnan Mahadevan)
+Fixed: GITHUB-165: @AfterGroups is not executed when group member fails or is skipped (Krishnan Mahadevan)
+Fixed: GITHUB-118: @BeforeGroups only called if group is specified explicitly (Krishnan Mahadevan)
+
+Fixed: GITHUB-182: Inherited test methods do not get expected group behavior (Krishnan Mahadevan)
+
+
+Fixed: GITHUB-1985: Custom "IMethodSelector" implementation doesn't filter methods properly (Krishnan Mahadevan)
+
+Fixed: GITHUB-1834: Ensure group dependency defined via suite xml is considered (Krishnan Mahadevan)
+Fixed: GITHUB-549 and GITHUB-780: Introduce onlyForGroups attribute for @BeforeMethod and @AfterMethod (Sergei Tachenov)
+
+Fixed: GITHUB-1709: @Ignore doesn't work when used on child class, and parent has @Test methods (Krishnan Mahadevan)
+
+Fixed: GITHUB-1827: TestNG does not throw an error when a test class does not have a proper constructor (Julien Herr & Krishnan Mahadevan)
+Fixed: Annotated default methods of indirectly implemented interfaces should still be called (Ilya Korobitsyn)
